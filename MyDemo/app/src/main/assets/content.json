@@ -1,0 +1,99 @@
+﻿[
+    {
+        "goodsId": 100001,
+        "goodsType": 1,
+        "goodsUrl": "http://58.87.71.247:8080/TestFile/heng1.png",
+        "type": 1
+    },
+    {
+        "goodsDesc": "连衣裙",
+        "goodsId": 100001,
+        "goodsName": "最美最漂亮的连衣裙",
+        "goodsType": 1,
+        "goodsUrl": "http://58.87.71.247:8080/TestFile/heng2.png",
+        "type": 2
+    },
+    {
+        "goodsDesc": "每日推荐",
+        "goodsName": "每天都有好心情",
+        "type": 3
+    },
+    {
+        "goodsId": 100001,
+        "goodsName": "简约的上衣",
+        "goodsType": 1,
+        "goodsUrl": "http://58.87.71.247:8080/TestFile/shu1.png",
+        "type": 4
+    },
+    {
+        "goodsId": 1454641,
+        "goodsName": "漂亮的小裙子",
+        "goodsType": 1,
+        "goodsUrl": "http://58.87.71.247:8080/TestFile/shu1.png",
+        "type": 4
+    },
+    {
+        "goodsId": 14500041,
+        "goodsName": "帅气的我",
+        "goodsType": 1,
+        "goodsUrl": "http://58.87.71.247:8080/TestFile/shu1.png",
+        "type": 4
+    },
+    {
+        "goodsInfo": [
+            {
+                "goodsId": 100001,
+                "goodsType": 1,
+                "goodsUrl": "http://58.87.71.247:8080/TestFile/shu2.png"
+            },
+            {
+                "goodsId": 100001,
+                "goodsType": 1,
+                "goodsUrl": "http://58.87.71.247:8080/TestFile/shu2.png"
+            },
+            {
+                "goodsId": 100001,
+                "goodsType": 1,
+                "goodsUrl": "http://58.87.71.247:8080/TestFile/shu2.png"
+            },
+            {
+                "goodsId": 100001,
+                "goodsType": 1,
+                "goodsUrl": "http://58.87.71.247:8080/TestFile/shu2.png"
+            }
+        ],
+        "type": 5
+    },
+    {
+        "goodsUrl": "http://58.87.71.247:8080/TestFile/heng3.png",
+        "type": 6
+    },
+    {
+        "goodsId": 100002,
+        "goodsPrice": 50,
+        "goodsType": 1,
+        "goodsUrl": "http://58.87.71.247:8080/TestFile/goods.png",
+        "type": 7
+    },
+    {
+        "goodsId": 14450452,
+        "goodsPrice": 180.8,
+        "goodsType": 1,
+        "goodsUrl": "http://58.87.71.247:8080/TestFile/goods1.png",
+        "type": 7
+    },
+    {
+        "goodsId": 11111452,
+        "goodsPrice": 200.7,
+        "goodsType": 1,
+        "goodsUrl": "http://58.87.71.247:8080/TestFile/goods2.png",
+        "type": 7
+    },
+    {
+        "goodsId": 1000001,
+        "goodsPrice": 85.9,
+        "goodsType": 1,
+        "goodsUrl": "http://58.87.71.247:8080/TestFile/goods3.png",
+        "type": 7
+    }
+]

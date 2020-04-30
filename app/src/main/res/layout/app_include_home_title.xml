@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/transparent"
+    android:orientation="vertical"
+    android:paddingLeft="13dp"
+    android:paddingRight="13dp">
+
+    <View
+        android:id="@+id/fake_status_bar"
+        android:layout_width="match_parent"
+        android:layout_height="24dp"
+        android:background="@color/transparent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/app_home_title_ll_news"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/app_bg_main_title_icon"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <android.support.v7.widget.AppCompatImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@mipmap/app_home_title_news" />
+        </LinearLayout>
+
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/app_home_title_tv_news"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="13dp"
+            android:layout_marginRight="13dp"
+            android:layout_weight="1"
+            android:background="@drawable/app_bg_main_title_search"
+            android:paddingBottom="7dp"
+            android:paddingLeft="18dp"
+            android:paddingStart="18dp"
+            android:paddingTop="7dp"
+            android:text="美女集合了"
+            android:textColor="@color/app_color_main_title_tv"
+            android:textSize="14sp"
+            tools:ignore="RtlSymmetry" />
+
+        <LinearLayout
+            android:id="@+id/app_home_title_ll_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/app_bg_main_title_icon"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <android.support.v7.widget.AppCompatImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@mipmap/app_home_title_search" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

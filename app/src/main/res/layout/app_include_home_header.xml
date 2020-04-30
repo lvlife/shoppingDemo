@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    android:orientation="vertical">
+
+    <com.youth.banner.Banner
+        android:id="@+id/app_home_header_banner"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/app_home_header_banner"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="-30dp"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.AppCompatImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/app_home_header_cover" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="horizontal">
+
+                <android.support.v7.widget.AppCompatTextView
+                    style="@style/AppHomeHeaderTvMenuStyle"
+                    android:drawableTop="@mipmap/app_home_header_hot_sale"
+                    android:text="新品上架" />
+
+                <android.support.v7.widget.AppCompatTextView
+                    style="@style/AppHomeHeaderTvMenuStyle"
+                    android:drawableTop="@mipmap/app_home_header_hot_sale"
+                    android:text="热销商品" />
+
+                <android.support.v7.widget.AppCompatTextView
+                    style="@style/AppHomeHeaderTvMenuStyle"
+                    android:drawableTop="@mipmap/app_home_header_hot_sale"
+                    android:text="人气推荐" />
+
+                <android.support.v7.widget.AppCompatTextView
+                    style="@style/AppHomeHeaderTvMenuStyle"
+                    android:drawableTop="@mipmap/app_home_header_hot_sale"
+                    android:text="更多商品" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="horizontal"
+                android:paddingTop="10dp">
+
+                <android.support.v7.widget.AppCompatTextView
+                    style="@style/AppHomeHeaderTvMenuStyle"
+                    android:drawableTop="@mipmap/app_home_header_hot_sale"
+                    android:text="商品1" />
+
+                <android.support.v7.widget.AppCompatTextView
+                    style="@style/AppHomeHeaderTvMenuStyle"
+                    android:drawableTop="@mipmap/app_home_header_hot_sale"
+                    android:text="商品2" />
+
+                <android.support.v7.widget.AppCompatTextView
+                    style="@style/AppHomeHeaderTvMenuStyle"
+                    android:drawableTop="@mipmap/app_home_header_hot_sale"
+                    android:text="商品3" />
+
+                <android.support.v7.widget.AppCompatTextView
+                    style="@style/AppHomeHeaderTvMenuStyle"
+                    android:drawableTop="@mipmap/app_home_header_hot_sale"
+                    android:text="商品4" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="13dp"
+                android:layout_marginRight="13dp"
+                android:background="@drawable/app_bg_main_title_search"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="13dp"
+                    android:paddingRight="13dp"
+                    android:paddingTop="10dp"
+                    android:text="常见问题"
+                    android:textColor="@color/app_color_tv_def"
+                    android:textSize="18sp" />
+
+                <com.my.demo.widget.MarqueeView
+                    android:id="@+id/app_home_header_problem"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:mvAnimDuration="1000"
+                    app:mvInterval="3000"
+                    app:mvSingleLine="true"
+                    app:mvTextColor="@color/app_color_main_title_tv"
+                    app:mvTextSize="14sp"
+                    app:paddingStart="0dp" />
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="13dp"
+                    android:paddingRight="13dp"
+                    android:paddingTop="10dp"
+                    android:text="更多"
+                    android:textColor="@color/app_color_main_title_tv"
+                    android:textSize="14sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>
+</RelativeLayout>

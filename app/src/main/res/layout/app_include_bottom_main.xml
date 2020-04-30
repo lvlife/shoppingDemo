@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/app_include_bottom_main_root"
+    android:layout_width="match_parent"
+    android:layout_height="55dp"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:id="@+id/app_include_bottom_main_ll_home"
+        style="@style/AppBottomMainLlStyle">
+
+        <android.support.v7.widget.AppCompatImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/app_main_bottom_icon_home_select" />
+
+        <android.support.v7.widget.AppCompatTextView
+            style="@style/AppBottomMainTvStyle"
+            android:text="首页" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/app_include_bottom_main_ll_classify"
+        style="@style/AppBottomMainLlStyle">
+
+        <android.support.v7.widget.AppCompatImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/app_main_bottom_icon_classify_select" />
+
+        <android.support.v7.widget.AppCompatTextView
+            style="@style/AppBottomMainTvStyle"
+            android:text="分类" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/app_include_bottom_main_ll_cart"
+        style="@style/AppBottomMainLlStyle">
+
+        <android.support.v7.widget.AppCompatImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/app_main_bottom_icon_cart_select" />
+
+        <android.support.v7.widget.AppCompatTextView
+            style="@style/AppBottomMainTvStyle"
+            android:text="购物车" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/app_include_bottom_main_ll_mine"
+        style="@style/AppBottomMainLlStyle">
+
+        <android.support.v7.widget.AppCompatImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/app_main_bottom_icon_mine_select" />
+
+        <android.support.v7.widget.AppCompatTextView
+            style="@style/AppBottomMainTvStyle"
+            android:text="我的" />
+    </LinearLayout>
+</LinearLayout>

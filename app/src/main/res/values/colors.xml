@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--应用的主要色调，actionBar默认使用该颜色，Toolbar导航栏的底色-->
+    <color name="colorPrimary">#e01222</color>
+    <!-- 应用的主要暗色调，statusBarColor默认使用该颜色-->
+    <color name="colorPrimaryDark">#e01222</color>
+    <!--CheckBox，RadioButton，SwitchCompat等一般控件的选中效果默认采用该颜色-->
+    <color name="colorAccent">#999999</color>
+    <!--主题色-->
+    <color name="app_theme_color">#e01222</color>
+    <!--透明色-->
+    <color name="transparent">#00000000</color>
+    <!--白色-->
+    <color name="white">#FFFFFF</color>
+    <!--标题栏标题颜色-->
+    <color name="title_color">#FFFFFF</color>
+    <!--window背景色-->
+    <color name="window_background">#fff</color>
+    <!--底部导航栏未选中文字颜色-->
+    <color name="app_color_main_tab_item_unchecked">#4d4d56</color>
+    <!--主页搜索文字颜色-->
+    <color name="app_color_main_title_tv">#999999</color>
+    <!--首页item主文字颜色-->
+    <color name="app_color_home_item_tv_main">#222222</color>
+    <!--首页item副文字颜色-->
+    <color name="app_color_home_item_tv_subtitle">#555555</color>
+    <!--默认主题文字颜色-->
+    <color name="app_color_tv_def">#222222</color>
+</resources>
